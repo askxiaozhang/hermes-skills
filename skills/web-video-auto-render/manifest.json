@@ -1,0 +1,15 @@
+{
+  "name": "web-video-auto-render",
+  "version": "1.0.0",
+  "category": "Video / Automation",
+  "description": "Automatically render Vite+React presentation projects into MP4 videos using Playwright headless browser recording + ffmpeg audio merge. Zero manual screen recording.",
+  "homepage": "https://github.com/hermes-agent/hermes-skills/tree/main/skills/web-video-auto-render",
+  "compat": [
+    "hermes",
+    "claude-code",
+    "claude-ai",
+    "cursor",
+    "codex-cli",
+    "opencode"
+  ]
+}

@@ -12,6 +12,13 @@
       "source": "./",
       "strict": false,
       "skills": ["./skills/bilibili-blogger-tracker"]
+    },
+    {
+      "name": "web-video-auto-render",
+      "description": "Automatically render Vite+React presentation projects into MP4 videos using Playwright + ffmpeg.",
+      "source": "./",
+      "strict": false,
+      "skills": ["./skills/web-video-auto-render"]
     }
   ]
 }

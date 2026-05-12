@@ -14,11 +14,9 @@
 <br/><sub>Video tracking / Content extraction</sub>
 </td>
 <td width="50%" valign="top">
-<a href="#contribute">
-<img src="https://img.shields.io/badge/Your-Skill-here-green?style=for-the-badge" alt="Contribute your skill" width="100%">
-</a>
-<br/><a href="#contributing"><strong>your-skill-next</strong></a>
-<br/><sub>Coming soon</sub>
+<a href="#web-video-auto-render"><img src="https://img.shields.io/badge/Video-Auto--Render-red?style=for-the-badge&logo=ffmpeg" alt="Web Video Auto Render Skill" width="100%"></a>
+<br/><a href="#web-video-auto-render"><strong>web-video-auto-render</strong></a>
+<br/><sub>Video rendering / Automation</sub>
 </td>
 </tr>
 </table>
@@ -26,7 +24,7 @@
 [![License: MIT](https://img.shields.io/github/license/hermes-agent/hermes-skills?style=flat-square&color=blue)](./LICENSE)
 [![GitHub stars](https://img.shields.io/github/stars/hermes-agent/hermes-skills?style=flat-square)](https://github.com/hermes-agent/hermes-skills/stargazers)
 [![PRs welcome](https://img.shields.io/badge/PRs-welcome-brightgreen?style=flat-square)](#contributing)
-[![Skills count](https://img.shields.io/badge/skills-1-orange?style=flat-square)](#skills-gallery)
+[![Skills count](https://img.shields.io/badge/skills-2-orange?style=flat-square)](#skills-gallery)
 
 </div>
 
@@ -36,7 +34,7 @@
 
 | Install | Skills | Contribute |
 |---|---|---|
-| [Install](#install)<br>[`npx skills add`](#option-a--npx-skills-cli)<br>[Manual copy](#option-b--manual-copy)<br>[Git submodule](#option-c--git-submodule) | [`bilibili-blogger-tracker`](#bilibili-blogger-tracker) | [Contributing](#contributing)<br>[License](#license) |
+| [Install](#install)<br>[`npx skills add`](#option-a--npx-skills-cli)<br>[Manual copy](#option-b--manual-copy)<br>[Git submodule](#option-c--git-submodule) | [`bilibili-blogger-tracker`](#bilibili-blogger-tracker)<br>[`web-video-auto-render`](#web-video-auto-render) | [Contributing](#contributing)<br>[License](#license) |
 
 ---
 
@@ -60,6 +58,27 @@ Highlights:
 Links: [README](./skills/bilibili-blogger-tracker/README.md) · [SKILL.md](./skills/bilibili-blogger-tracker/SKILL.md) · <!-- DOWNLOAD:bilibili-blogger-tracker:start -->
 [Download v1.0.0 .zip](https://github.com/hermes-agent/hermes-skills/releases/download/bilibili-blogger-tracker-v1.0.0/bilibili-blogger-tracker-1.0.0.zip)
 <!-- DOWNLOAD:bilibili-blogger-tracker:end -->
+
+---
+
+### `web-video-auto-render`
+
+**Category:** Video / Automation
+**Best for:** Automatically rendering Vite+React presentation projects into MP4 videos. Playwright headless browser recording + ffmpeg audio merge. Zero manual screen capture.
+
+`web-video-auto-render` is the Phase 4 enhancement for `web-video-presentation`. Instead of manually recording the screen with OBS, it uses Playwright's built-in video recording to capture the browser at 1920×1080, then merges the recorded video with synthesized audio via ffmpeg — all in one command.
+
+Highlights:
+
+- **Zero manual recording** — Playwright headless Chromium captures all CSS/Framer Motion animations natively
+- **Two modes** — browser preview with `?auto=1` for dev, fully automated Playwright+ffmpeg for production
+- **Built-in HTTP server** — spawns its own server during rendering, immune to process reclamation
+- **OOM-safe** — split ffmpeg pipeline (webm→mp4, audio concat, final merge) avoids memory kills
+- **6 pitfalls documented** — webm duration N/A, concat absolute paths, container limits, Chinese quotes, and more
+
+Links: [README](./skills/web-video-auto-render/README.md) · [SKILL.md](./skills/web-video-auto-render/SKILL.md) · <!-- DOWNLOAD:web-video-auto-render:start -->
+[Download v1.0.0 .zip](https://github.com/hermes-agent/hermes-skills/releases/download/web-video-auto-render-v1.0.0/web-video-auto-render-1.0.0.zip)
+<!-- DOWNLOAD:web-video-auto-render:end -->
 
 ---
 
