@@ -57,7 +57,9 @@ Highlights:
 - **Cron monitoring** — silent skip when no new video, instant notification when new content drops
 - **Rate limit resilience** — built-in workarounds for Bilibili API -352/-799/412 codes
 
-Links: [README](./skills/bilibili-blogger-tracker/README.md) · [SKILL.md](./skills/bilibili-blogger-tracker/SKILL.md) · <!-- DOWNLOAD:bilibili-blogger-tracker:start -->[Download v1.0.0 .zip](https://github.com/hermes-agent/hermes-skills/releases/download/bilibili-blogger-tracker-v1.0.0/bilibili-blogger-tracker-1.0.0.zip)<!-- DOWNLOAD:bilibili-blogger-tracker:end -->
+Links: [README](./skills/bilibili-blogger-tracker/README.md) · [SKILL.md](./skills/bilibili-blogger-tracker/SKILL.md) · <!-- DOWNLOAD:bilibili-blogger-tracker:start -->
+[Download v1.0.0 .zip](https://github.com/hermes-agent/hermes-skills/releases/download/bilibili-blogger-tracker-v1.0.0/bilibili-blogger-tracker-1.0.0.zip)
+<!-- DOWNLOAD:bilibili-blogger-tracker:end -->
 
 ---
 
