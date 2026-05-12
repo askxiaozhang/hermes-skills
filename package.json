@@ -1,0 +1,17 @@
+{
+  "name": "hermes-skills",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Production-ready Agent Skills for Hermes, Claude Code, Cursor, Codex, and other AI coding agents.",
+  "scripts": {
+    "release": "node scripts/release/cut-release.mjs",
+    "release:dry": "node scripts/release/cut-release.mjs --dry-run",
+    "list": "node scripts/release/list-skills.mjs",
+    "pack": "node scripts/release/pack-skill.mjs",
+    "pack:all": "node scripts/release/pack-skill.mjs --all",
+    "readme:sync": "node scripts/release/update-readme.mjs",
+    "readme:check": "node scripts/release/update-readme.mjs --check",
+    "validate": "npm run list && npm run pack:all && npm run readme:check"
+  },
+  "license": "MIT"
+}

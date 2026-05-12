@@ -1,0 +1,17 @@
+{
+  "name": "hermes-skills",
+  "owner": { "name": "hermes-agent" },
+  "metadata": {
+    "description": "Production-ready Agent Skills for Hermes, Claude Code, Cursor, Codex, and other AI coding agents.",
+    "version": "0.1.0"
+  },
+  "plugins": [
+    {
+      "name": "bilibili-blogger-tracker",
+      "description": "Track Bilibili creators: automated new video detection, comment-image extraction, wiki ingestion, cron monitoring.",
+      "source": "./",
+      "strict": false,
+      "skills": ["./skills/bilibili-blogger-tracker"]
+    }
+  ]
+}
