@@ -68,6 +68,10 @@ Links: [README](./skills/bilibili-blogger-tracker/README.md) · [SKILL.md](./ski
 
 `web-video-auto-render` is the Phase 4 enhancement for `web-video-presentation`. Instead of manually recording the screen with OBS, it uses Playwright's built-in video recording to capture the browser at 1920×1080, then merges the recorded video with synthesized audio via ffmpeg — all in one command.
 
+> 🎬 **Live demo** — a 5min presentation about [Hermes Kanban](https://hermes-agent.nousresearch.com), fully auto-rendered from a Vite+React project with 7 chapters and 37 audio segments:
+>
+> [![Watch demo](https://img.shields.io/badge/▶_Watch_Demo-MP4_(11MB)-red?style=for-the-badge&logo=videolan)](./demo/web-video-auto-render/hermes-kanban-demo.mp4)
+
 Highlights:
 
 - **Zero manual recording** — Playwright headless Chromium captures all CSS/Framer Motion animations natively
