@@ -4,3 +4,7 @@ dist/release/
 *.sha256
 .DS_Store
 *.log
+
+# Private full playbook (not for public release)
+github-trending-douyin/SKILL.full.local.md
+*.local.md
